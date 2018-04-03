@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ApplicationContextHolder implements ApplicationContextAware {
     private static ApplicationContext applicationContext;
-
+    //静态的applicationContext,单例的
     @Override
     public void setApplicationContext(ApplicationContext ctx) throws BeansException {
         applicationContext = ctx;
