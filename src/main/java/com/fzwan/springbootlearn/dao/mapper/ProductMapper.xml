@@ -6,7 +6,7 @@
 
     
      <!-- 开启基于redis的二级缓存 -->
-    <cache type="com.fzwan.springbootlearn.util.RedisCache"/> 
+    <cache type="com.fzwan.springbootlearn.util.RedisCache"/>
 
 
     <select id="select" resultType="Product">
