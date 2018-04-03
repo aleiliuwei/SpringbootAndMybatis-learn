@@ -92,7 +92,7 @@ public class RedisCache implements Cache {
     }
 
     /**
-     * Clears this cache instance
+     * Clears this cache instance 
      */
     @Override
     public void clear() {
